@@ -11,3 +11,7 @@ public:
 		cout << "\n Nama = " << nama;
 	}
 };
+
+class matakuliah {
+
+};
