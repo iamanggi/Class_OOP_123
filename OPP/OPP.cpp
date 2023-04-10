@@ -37,9 +37,13 @@ public:
 int main() {
 	mahasiswa mhs1;
 	matakuliah mk;
+
 	cout << "masukan nim : ";
 	cin >> mhs1.nim;
 	cout << "masukan nama : ";
 	cin >> mhs1.nama;
+	mhs1.cetak();
 
+	mk.input();
+	mk.tampil();
 }
