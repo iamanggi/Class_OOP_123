@@ -23,19 +23,23 @@ public:
 		cin >> kode;
 		cout << "\nmasukan nama matakuliah : ";
 		cin >> namaM;
-		cout << "SKS : ";
+		cout << " jumlah SKS : ";
 		cin >> sks;
 	}
-		void tampil() {
+	void tampil() {
 			cout << "masukan kode matakuliah : " << kode;
 			cout << "masukan nama matakuliah : " << namaM;
 			cout << "SKS : " << sks;
-		}
+	}
 	
 };
 
 int main() {
 	mahasiswa mhs1;
 	matakuliah mk;
+	cout << "masukan nim : ";
+	cin >> mhs1.nim;
+	cout << "masukan nama : ";
+	cin >> mhs1.nama;
 
 }
